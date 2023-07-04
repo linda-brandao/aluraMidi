@@ -4,13 +4,9 @@ function tocaSom(seletorAudio) {
     if (elemento && elemento.localName === 'audio') {
         elemento.play();
     } else {
-        console.log("Elemento não encontrado ou seletor inválido!")
+        console.log("Elemento não encontrado ou seletor inválido")
     }
 }
-
-// acessando dentro do meu documento html o botao da tecla pom
-// acessa o meu documento html, busca o seletor informado e retornar a referencia do elemento que eu quero trabalhar
-//document.querySelector('.tecla_pom').onclick = tocaSom;
 
 // lista de elementos que tem a class como tecla
 const listaDeTeclas = document.querySelectorAll('.tecla');
